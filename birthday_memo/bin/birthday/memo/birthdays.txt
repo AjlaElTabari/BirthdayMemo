@@ -1,11 +1,18 @@
-10
-Ajla Tabari 7 5 1984
-Gordan Masic 6 10 1991
-Amra Sabic 1 12 1989
-Kerim Dragolj 2 9 1996
-Edvin Mulabdic 6 1 1989
-Senadin Botic 3 27 1988
-Narena Ibrisimovic 5 8 1981
-Kristina Pupavac 6 22 1989
+17
+Ajla Tabari 5 7 1984
+Gordan Masic 10 6 1991
+Amra Sabic 12 1 1989
+Kerim Dragolj 9 2 1996
+Edvin Mulabdic 1 6 1989
+Senadin Botic 27 3 1988
+Narena Ibrisimovic 8 5 1981
+Kristina Pupavac 22 6 1989
 Zaid Zerdo 7 7 1994
-Mladen Teofilovic 15 7 1990
+Mladen Teofilovic 7 15 1990
+Arijana Mulic 3 6 1987
+Myao TzeTong 7 16 2012
+a a 3 3 4
+b b 8 8 8
+s s 2 3 4
+6 6 6 6 6
+4 4 4 4 4

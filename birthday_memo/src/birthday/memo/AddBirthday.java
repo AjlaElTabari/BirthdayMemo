@@ -20,6 +20,7 @@ import javax.swing.JTextField;
 
 /**
  * Implements logic for adding new birthday into users file
+ * 
  * @author ajla.eltabari
  *
  */
@@ -66,11 +67,8 @@ public class AddBirthday extends JFrame {
 							+ Integer.parseInt(tfDay.getText()) + " "
 							+ Integer.parseInt(tfYear.getText());
 
-					DataHelper.insertBirtdhday(
-							"src/birthday/memo/birthdays.txt",
-							DataHelper
-									.getBirthdays(filename),
-							s);
+					DataHelper.insertBirtdhday(filename,
+							DataHelper.getBirthdays(filename), s);
 				} catch (NumberFormatException ex) {
 					JOptionPane error = new JOptionPane(
 							"Entered information is not valid. Please try again.",
@@ -81,8 +79,7 @@ public class AddBirthday extends JFrame {
 				}
 
 				dispose();
-				bm.taTodaysEvents.setText(DataHelper
-						.printBirthdays(filename));
+				bm.taTodaysEvents.setText(DataHelper.printBirthdays(filename));
 			}
 
 		});
